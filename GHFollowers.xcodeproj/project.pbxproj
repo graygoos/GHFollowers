@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		057AC89B27207F89002B506A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057AC89A27207F89002B506A /* SearchVC.swift */; };
 		057AC89F27207FFF002B506A /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057AC89E27207FFF002B506A /* FavoritesListVC.swift */; };
+		0581EA502720AA82002A7399 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581EA4F2720AA82002A7399 /* GFButton.swift */; };
+		0581EA542720ADED002A7399 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581EA532720ADED002A7399 /* GFTextField.swift */; };
 		05F99AA3271F6BC000A7E680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F99AA2271F6BC000A7E680 /* AppDelegate.swift */; };
 		05F99AA5271F6BC000A7E680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F99AA4271F6BC000A7E680 /* SceneDelegate.swift */; };
 		05F99AAC271F6BC500A7E680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F99AAB271F6BC500A7E680 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		057AC89A27207F89002B506A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		057AC89E27207FFF002B506A /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		0581EA4F2720AA82002A7399 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		0581EA532720ADED002A7399 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		05F99A9F271F6BC000A7E680 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F99AA2271F6BC000A7E680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F99AA4271F6BC000A7E680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				05F99AA4271F6BC000A7E680 /* SceneDelegate.swift */,
 				057AC89A27207F89002B506A /* SearchVC.swift */,
 				057AC89E27207FFF002B506A /* FavoritesListVC.swift */,
+				0581EA4F2720AA82002A7399 /* GFButton.swift */,
+				0581EA532720ADED002A7399 /* GFTextField.swift */,
 				05F99AAB271F6BC500A7E680 /* Assets.xcassets */,
 				05F99AAD271F6BC500A7E680 /* LaunchScreen.storyboard */,
 				05F99AB0271F6BC500A7E680 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0581EA542720ADED002A7399 /* GFTextField.swift in Sources */,
 				057AC89F27207FFF002B506A /* FavoritesListVC.swift in Sources */,
+				0581EA502720AA82002A7399 /* GFButton.swift in Sources */,
 				057AC89B27207F89002B506A /* SearchVC.swift in Sources */,
 				05F99AA3271F6BC000A7E680 /* AppDelegate.swift in Sources */,
 				05F99AA5271F6BC000A7E680 /* SceneDelegate.swift in Sources */,
