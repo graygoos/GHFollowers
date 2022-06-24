@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Femi Aliu on 17/06/2022.
+//  Created by Femi Aliu on 24/06/2022.
 //
 
 import Foundation
