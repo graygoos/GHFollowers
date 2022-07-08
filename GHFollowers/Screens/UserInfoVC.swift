@@ -7,11 +7,9 @@
 
 import UIKit
 
-
 protocol UserInfoVCDelegate: AnyObject {
     func didRequestFollowers(for username: String)
 }
-
 
 class UserInfoVC: GFDataLoadingVC {
     
@@ -27,6 +25,7 @@ class UserInfoVC: GFDataLoadingVC {
     var username: String!
     weak var delegate: UserInfoVCDelegate!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -35,11 +34,13 @@ class UserInfoVC: GFDataLoadingVC {
         configureScrollView()
     }
     
+    
     func configureViewController() {
         view.backgroundColor = .systemBackground
         let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
         navigationItem.rightBarButtonItem = doneButton
     }
+    
     
     func configureScrollView() {
         view.addSubview(scrollview)
@@ -53,6 +54,7 @@ class UserInfoVC: GFDataLoadingVC {
             
         ])
     }
+    
     
     func getUserInfo() {
         NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
@@ -70,12 +72,14 @@ class UserInfoVC: GFDataLoadingVC {
         }
     }
     
+    
     func configureUIElements(with user: User) {
         self.add(childVC: GFRepoItemVC(user: user, delegate: self), to: self.itemViewOne)
         self.add(childVC: GFFollowerItemVC(user: user, delegate: self ), to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.dateLabel.text = "GitHub since \(user.createdAt.convertToMonthYearFormat())"
     }
+    
     
     func layoutUI() {
         let padding: CGFloat = 20
@@ -108,12 +112,14 @@ class UserInfoVC: GFDataLoadingVC {
         ])
     }
     
+    
     func add(childVC: UIViewController, to containerView: UIView) {
         addChild(childVC)
         containerView.addSubview(childVC.view)
         childVC.view.frame = containerView.bounds
         childVC.didMove(toParent: self)
     }
+    
     
     @objc func dismissVC() {
         dismiss(animated: true)
