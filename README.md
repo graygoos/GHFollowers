@@ -33,7 +33,7 @@ The favorites tab allows you to add your favorite followers for quick access. Yo
 * Fully programmatic UI
 
 ## Requirements 
-* Xcode 12.0 or later  
+* Xcode 13.0 or later  
 * iOS 14.0 or later  
 * Swift 5.3 or later  
 
