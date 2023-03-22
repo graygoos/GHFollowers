@@ -1,4 +1,4 @@
-# GHFollowers - GitHub Followers iOS Take Home Course by Sean Allen
+# GHFollowers - iOS Take Home Course by Sean Allen
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/52054174/226890009-9486e6f0-dc0f-413a-8195-5b704f05f29a.png" width="250" height="250">
