@@ -43,7 +43,8 @@ To install and run the app on your local machine, follow these steps:
 
 * Clone the repository to your local machine.  
 * Open the project in Xcode.  
-* Run the project on a simulator or a physical device.  
+* Run the project on a simulator or a physical device. 
+* You need a working internet connection to fetch users from the GitHub API 
 
 ## Credits
 This app is built as a take-home project for the iOS Dev Job course by Sean Allen. The app uses the GitHub API to fetch the follower's details.
