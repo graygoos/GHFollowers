@@ -47,5 +47,5 @@ To install and run the app on your local machine, follow these steps:
 * You need a working internet connection to fetch users from the GitHub API 
 
 ## Credits
-This app is built as a take-home project for the iOS Dev Job course by Sean Allen. The app uses the GitHub API to fetch the follower's details.
+This app is built as part of the take-home project for the iOS Dev Job course by Sean Allen. The app uses the GitHub API to fetch the follower's details.
 
