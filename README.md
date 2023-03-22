@@ -24,6 +24,7 @@ The favorites tab allows you to add your favorite followers for quick access. Yo
 * Add a follower to favorites tab  
 * Remove a follower from favorites tab  
 * Clean and user-friendly interface
+* Light and Dark Mode
 
 ## Frameworks/Technologies
 * UIKit  
