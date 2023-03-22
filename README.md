@@ -7,7 +7,6 @@
 This iOS app is built using the GitHub API to fetch users of any follower. The app allows you to search for a follower of any GitHub user and view their profile details. You can also add a follower to the favorites tab for quick access.
 The app has a clean and user-friendly interface that makes it easy to navigate through the various features. When you search for a follower, the app fetches their avatar, name, bio, and the number of followers, following, and repositories they have. You can tap on any follower to view more details, such as their email, location, and website.
 The favorites tab allows you to add your favorite followers for quick access. You can remove a follower from the favorites tab by swiping left on their profile in the list.
-The app uses various iOS frameworks such as UIKit, CoreData, and URLSession to provide a seamless experience.
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/52054174/226890381-a1a4a1e7-08c0-4bd8-b837-06c4af9c507d.png" width="376" height="900">
@@ -25,6 +24,12 @@ The app uses various iOS frameworks such as UIKit, CoreData, and URLSession to p
 * Add a follower to favorites tab  
 * Remove a follower from favorites tab  
 * Clean and user-friendly interface
+
+## Frameworks/Technologies
+* UIKit  
+* URLSession  
+* Auto Layout
+* Fully programmatic UI
 
 ## Requirements 
 * Xcode 12.0 or later  
