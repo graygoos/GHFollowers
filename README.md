@@ -16,7 +16,7 @@ The app uses various iOS frameworks such as UIKit, CoreData, and URLSession to p
 </p>
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/52054174/226890635-dea2f5f2-dd67-4493-877e-ef60014503ff.gif" width="460" height="1100"/>
+    <img src="https://user-images.githubusercontent.com/52054174/226893575-43de4ff2-e772-4f21-810d-9d863827c8f0.gif" width="460" height="1100"/>
 </p>
 
 ## Features
